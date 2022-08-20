@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import RasberryCookieImage from './assets/RaspberryCookie.png';
+import Counter from './components/Counter';
 import Profile from './components/Profile';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
         </a>
       </header>
       <Profile username="Raspberry Cookie" image={RasberryCookieImage} />
+      <Counter />
     </div>
   );
 }
